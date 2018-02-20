@@ -4,7 +4,7 @@ Preferably reads an edn file and gives a summary of differences between to url1+
 
 ## Installation
 
-Install (leiningen)[https://leiningen.org/].
+Install [leiningen](https://leiningen.org/).
 Run `lein bin` to create binary, might want to change the path in `project.clj`
 
 ## Usage
