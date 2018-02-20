@@ -1,9 +1,16 @@
 (defproject site-diff-checker "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+  :description "This is a tool to check what pages are not transfered to the new site"
+  :url "http://t.me/SanderK"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[org.clojure/clojure "1.8.0"]]
-  :main ^:skip-aot site-diff-checker.core
-  :target-path "target/%s"
+  :dependencies [[org.clojure/clojure "1.8.0"]
+                 [org.clojure/tools.cli "0.3.5"]
+                 [clj-http "3.7.0"]
+                 [manifold "0.1.6"]
+                 [com.taoensso/timbre "4.10.0"]]
+  :main site-diff-checker.core
+  :bin {:name "site-diff"
+          :bin-path "~/.local/bin"
+          :bootclasspath false}
+  :target-path "target"
   :profiles {:uberjar {:aot :all}})
