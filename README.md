@@ -1,36 +1,19 @@
 # site-diff-checker
 
-FIXME: description
+Preferably reads an edn file and gives a summary of differences between to url1+uri and url2+uri.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Install (leiningen)[https://leiningen.org/].
+Run `lein bin` to create binary, might want to change the path in `project.clj`
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar site-diff-checker-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+    $ site-diff --help
 
 ## License
 
-Copyright © 2018 FIXME
+Copyright © 2018 Sander Kolman
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
