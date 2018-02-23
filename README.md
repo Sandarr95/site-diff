@@ -1,6 +1,6 @@
 # site-diff-checker
 
-Preferably reads an edn file and gives a summary of differences between to url1+uri and url2+uri.
+Reads an edn file and gives a summary of availability of the uri's.
 
 ## Installation
 
